@@ -1,0 +1,27 @@
+1. 50, 10, 8, 5, 9, 30, 26, 31, 150, 100, 79, 126, 152, 151, 180
+2. 5, 8, 9, 10, 26, 30, 31, 50, 79, 100, 126, 150, 151, 152, 180 
+3. 5, 9, 8, 26, 31, 30, 10, 79, 126, 100, 151, 180, 152, 150, 50
+
+4.
+Step(from upper to below order):
+inOrderTraversal(6);
+inOrderTraversal(3);
+inOrderTraversal(1);
+inOrderTraversal(1.left);
+inOrderTraversal(1.right);
+inOrderTraversal(4);
+inOrderTraversal(4.left);
+inOrderTraversal(4.right);
+inOrderTraversal(9);
+inOrderTraversal(6);
+inOrderTraversal(6.left);
+inOrderTraversal(6.right);
+inOrderTraversal(10);
+inOrderTraversal(10.left);
+inOrderTraversal(10.right);
+
+deleteNode(6,9);
+deleteNode(9,9);
+findSuccessor(9); //return 6
+deleteNode(10,6);
+deleteNode(10.left,6);
